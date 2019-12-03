@@ -1,0 +1,1090 @@
+[
+  {
+    "icon": "fe-alert-octagon",
+    "key": "fe-alert-octagon"
+  },
+  {
+    "icon": "fe-alert-circle",
+    "key": "fe-alert-circle"
+  },
+  {
+    "icon": "fe-activity",
+    "key": "fe-activity"
+  },
+  {
+    "icon": "fe-alert-triangle",
+    "key": "fe-alert-triangle"
+  },
+  {
+    "icon": "fe-align-center",
+    "key": "fe-align-center"
+  },
+  {
+    "icon": "fe-airplay",
+    "key": "fe-airplay"
+  },
+  {
+    "icon": "fe-align-justify",
+    "key": "fe-align-justify"
+  },
+  {
+    "icon": "fe-align-left",
+    "key": "fe-align-left"
+  },
+  {
+    "icon": "fe-align-right",
+    "key": "fe-align-right"
+  },
+  {
+    "icon": "fe-arrow-down-left",
+    "key": "fe-arrow-down-left"
+  },
+  {
+    "icon": "fe-arrow-down-right",
+    "key": "fe-arrow-down-right"
+  },
+  {
+    "icon": "fe-anchor",
+    "key": "fe-anchor"
+  },
+  {
+    "icon": "fe-aperture",
+    "key": "fe-aperture"
+  },
+  {
+    "icon": "fe-arrow-left",
+    "key": "fe-arrow-left"
+  },
+  {
+    "icon": "fe-arrow-right",
+    "key": "fe-arrow-right"
+  },
+  {
+    "icon": "fe-arrow-down",
+    "key": "fe-arrow-down"
+  },
+  {
+    "icon": "fe-arrow-up-left",
+    "key": "fe-arrow-up-left"
+  },
+  {
+    "icon": "fe-arrow-up-right",
+    "key": "fe-arrow-up-right"
+  },
+  {
+    "icon": "fe-arrow-up",
+    "key": "fe-arrow-up"
+  },
+  {
+    "icon": "fe-award",
+    "key": "fe-award"
+  },
+  {
+    "icon": "fe-bar-chart",
+    "key": "fe-bar-chart"
+  },
+  {
+    "icon": "fe-at-sign",
+    "key": "fe-at-sign"
+  },
+  {
+    "icon": "fe-bar-chart-2",
+    "key": "fe-bar-chart-2"
+  },
+  {
+    "icon": "fe-battery-charging",
+    "key": "fe-battery-charging"
+  },
+  {
+    "icon": "fe-bell-off",
+    "key": "fe-bell-off"
+  },
+  {
+    "icon": "fe-battery",
+    "key": "fe-battery"
+  },
+  {
+    "icon": "fe-bluetooth",
+    "key": "fe-bluetooth"
+  },
+  {
+    "icon": "fe-bell",
+    "key": "fe-bell"
+  },
+  {
+    "icon": "fe-book",
+    "key": "fe-book"
+  },
+  {
+    "icon": "fe-briefcase",
+    "key": "fe-briefcase"
+  },
+  {
+    "icon": "fe-camera-off",
+    "key": "fe-camera-off"
+  },
+  {
+    "icon": "fe-calendar",
+    "key": "fe-calendar"
+  },
+  {
+    "icon": "fe-bookmark",
+    "key": "fe-bookmark"
+  },
+  {
+    "icon": "fe-box",
+    "key": "fe-box"
+  },
+  {
+    "icon": "fe-camera",
+    "key": "fe-camera"
+  },
+  {
+    "icon": "fe-check-circle",
+    "key": "fe-check-circle"
+  },
+  {
+    "icon": "fe-check",
+    "key": "fe-check"
+  },
+  {
+    "icon": "fe-check-square",
+    "key": "fe-check-square"
+  },
+  {
+    "icon": "fe-cast",
+    "key": "fe-cast"
+  },
+  {
+    "icon": "fe-chevron-down",
+    "key": "fe-chevron-down"
+  },
+  {
+    "icon": "fe-chevron-left",
+    "key": "fe-chevron-left"
+  },
+  {
+    "icon": "fe-chevron-right",
+    "key": "fe-chevron-right"
+  },
+  {
+    "icon": "fe-chevron-up",
+    "key": "fe-chevron-up"
+  },
+  {
+    "icon": "fe-chevrons-down",
+    "key": "fe-chevrons-down"
+  },
+  {
+    "icon": "fe-chevrons-right",
+    "key": "fe-chevrons-right"
+  },
+  {
+    "icon": "fe-chevrons-up",
+    "key": "fe-chevrons-up"
+  },
+  {
+    "icon": "fe-chevrons-left",
+    "key": "fe-chevrons-left"
+  },
+  {
+    "icon": "fe-circle",
+    "key": "fe-circle"
+  },
+  {
+    "icon": "fe-clipboard",
+    "key": "fe-clipboard"
+  },
+  {
+    "icon": "fe-chrome",
+    "key": "fe-chrome"
+  },
+  {
+    "icon": "fe-clock",
+    "key": "fe-clock"
+  },
+  {
+    "icon": "fe-cloud-lightning",
+    "key": "fe-cloud-lightning"
+  },
+  {
+    "icon": "fe-cloud-drizzle",
+    "key": "fe-cloud-drizzle"
+  },
+  {
+    "icon": "fe-cloud-rain",
+    "key": "fe-cloud-rain"
+  },
+  {
+    "icon": "fe-cloud-off",
+    "key": "fe-cloud-off"
+  },
+  {
+    "icon": "fe-codepen",
+    "key": "fe-codepen"
+  },
+  {
+    "icon": "fe-cloud-snow",
+    "key": "fe-cloud-snow"
+  },
+  {
+    "icon": "fe-compass",
+    "key": "fe-compass"
+  },
+  {
+    "icon": "fe-copy",
+    "key": "fe-copy"
+  },
+  {
+    "icon": "fe-corner-down-right",
+    "key": "fe-corner-down-right"
+  },
+  {
+    "icon": "fe-corner-down-left",
+    "key": "fe-corner-down-left"
+  },
+  {
+    "icon": "fe-corner-left-down",
+    "key": "fe-corner-left-down"
+  },
+  {
+    "icon": "fe-corner-left-up",
+    "key": "fe-corner-left-up"
+  },
+  {
+    "icon": "fe-corner-up-left",
+    "key": "fe-corner-up-left"
+  },
+  {
+    "icon": "fe-corner-up-right",
+    "key": "fe-corner-up-right"
+  },
+  {
+    "icon": "fe-corner-right-down",
+    "key": "fe-corner-right-down"
+  },
+  {
+    "icon": "fe-corner-right-up",
+    "key": "fe-corner-right-up"
+  },
+  {
+    "icon": "fe-cpu",
+    "key": "fe-cpu"
+  },
+  {
+    "icon": "fe-credit-card",
+    "key": "fe-credit-card"
+  },
+  {
+    "icon": "fe-crosshair",
+    "key": "fe-crosshair"
+  },
+  {
+    "icon": "fe-disc",
+    "key": "fe-disc"
+  },
+  {
+    "icon": "fe-delete",
+    "key": "fe-delete"
+  },
+  {
+    "icon": "fe-download-cloud",
+    "key": "fe-download-cloud"
+  },
+  {
+    "icon": "fe-download",
+    "key": "fe-download"
+  },
+  {
+    "icon": "fe-droplet",
+    "key": "fe-droplet"
+  },
+  {
+    "icon": "fe-edit-2",
+    "key": "fe-edit-2"
+  },
+  {
+    "icon": "fe-edit",
+    "key": "fe-edit"
+  },
+  {
+    "icon": "fe-edit-1",
+    "key": "fe-edit-1"
+  },
+  {
+    "icon": "fe-external-link",
+    "key": "fe-external-link"
+  },
+  {
+    "icon": "fe-eye",
+    "key": "fe-eye"
+  },
+  {
+    "icon": "fe-feather",
+    "key": "fe-feather"
+  },
+  {
+    "icon": "fe-facebook",
+    "key": "fe-facebook"
+  },
+  {
+    "icon": "fe-file-minus",
+    "key": "fe-file-minus"
+  },
+  {
+    "icon": "fe-eye-off",
+    "key": "fe-eye-off"
+  },
+  {
+    "icon": "fe-fast-forward",
+    "key": "fe-fast-forward"
+  },
+  {
+    "icon": "fe-file-text",
+    "key": "fe-file-text"
+  },
+  {
+    "icon": "fe-film",
+    "key": "fe-film"
+  },
+  {
+    "icon": "fe-file",
+    "key": "fe-file"
+  },
+  {
+    "icon": "fe-file-plus",
+    "key": "fe-file-plus"
+  },
+  {
+    "icon": "fe-folder",
+    "key": "fe-folder"
+  },
+  {
+    "icon": "fe-filter",
+    "key": "fe-filter"
+  },
+  {
+    "icon": "fe-flag",
+    "key": "fe-flag"
+  },
+  {
+    "icon": "fe-globe",
+    "key": "fe-globe"
+  },
+  {
+    "icon": "fe-grid",
+    "key": "fe-grid"
+  },
+  {
+    "icon": "fe-heart",
+    "key": "fe-heart"
+  },
+  {
+    "icon": "fe-home",
+    "key": "fe-home"
+  },
+  {
+    "icon": "fe-github",
+    "key": "fe-github"
+  },
+  {
+    "icon": "fe-image",
+    "key": "fe-image"
+  },
+  {
+    "icon": "fe-inbox",
+    "key": "fe-inbox"
+  },
+  {
+    "icon": "fe-layers",
+    "key": "fe-layers"
+  },
+  {
+    "icon": "fe-info",
+    "key": "fe-info"
+  },
+  {
+    "icon": "fe-instagram",
+    "key": "fe-instagram"
+  },
+  {
+    "icon": "fe-layout",
+    "key": "fe-layout"
+  },
+  {
+    "icon": "fe-link-2",
+    "key": "fe-link-2"
+  },
+  {
+    "icon": "fe-life-buoy",
+    "key": "fe-life-buoy"
+  },
+  {
+    "icon": "fe-link",
+    "key": "fe-link"
+  },
+  {
+    "icon": "fe-log-in",
+    "key": "fe-log-in"
+  },
+  {
+    "icon": "fe-list",
+    "key": "fe-list"
+  },
+  {
+    "icon": "fe-lock",
+    "key": "fe-lock"
+  },
+  {
+    "icon": "fe-log-out",
+    "key": "fe-log-out"
+  },
+  {
+    "icon": "fe-loader",
+    "key": "fe-loader"
+  },
+  {
+    "icon": "fe-mail",
+    "key": "fe-mail"
+  },
+  {
+    "icon": "fe-maximize-2",
+    "key": "fe-maximize-2"
+  },
+  {
+    "icon": "fe-map",
+    "key": "fe-map"
+  },
+  {
+    "icon": "fe-maximize",
+    "key": "fe-maximize"
+  },
+  {
+    "icon": "fe-map-pin",
+    "key": "fe-map-pin"
+  },
+  {
+    "icon": "fe-menu",
+    "key": "fe-menu"
+  },
+  {
+    "icon": "fe-message-circle",
+    "key": "fe-message-circle"
+  },
+  {
+    "icon": "fe-message-square",
+    "key": "fe-message-square"
+  },
+  {
+    "icon": "fe-minimize-2",
+    "key": "fe-minimize-2"
+  },
+  {
+    "icon": "fe-minimize",
+    "key": "fe-minimize"
+  },
+  {
+    "icon": "fe-mic-off",
+    "key": "fe-mic-off"
+  },
+  {
+    "icon": "fe-minus-circle",
+    "key": "fe-minus-circle"
+  },
+  {
+    "icon": "fe-mic",
+    "key": "fe-mic"
+  },
+  {
+    "icon": "fe-minus-square",
+    "key": "fe-minus-square"
+  },
+  {
+    "icon": "fe-minus",
+    "key": "fe-minus"
+  },
+  {
+    "icon": "fe-moon",
+    "key": "fe-moon"
+  },
+  {
+    "icon": "fe-monitor",
+    "key": "fe-monitor"
+  },
+  {
+    "icon": "fe-more-vertical",
+    "key": "fe-more-vertical"
+  },
+  {
+    "icon": "fe-more-horizontal",
+    "key": "fe-more-horizontal"
+  },
+  {
+    "icon": "fe-move",
+    "key": "fe-move"
+  },
+  {
+    "icon": "fe-music",
+    "key": "fe-music"
+  },
+  {
+    "icon": "fe-navigation-2",
+    "key": "fe-navigation-2"
+  },
+  {
+    "icon": "fe-navigation",
+    "key": "fe-navigation"
+  },
+  {
+    "icon": "fe-octagon",
+    "key": "fe-octagon"
+  },
+  {
+    "icon": "fe-package",
+    "key": "fe-package"
+  },
+  {
+    "icon": "fe-pause-circle",
+    "key": "fe-pause-circle"
+  },
+  {
+    "icon": "fe-pause",
+    "key": "fe-pause"
+  },
+  {
+    "icon": "fe-percent",
+    "key": "fe-percent"
+  },
+  {
+    "icon": "fe-phone-call",
+    "key": "fe-phone-call"
+  },
+  {
+    "icon": "fe-phone-forwarded",
+    "key": "fe-phone-forwarded"
+  },
+  {
+    "icon": "fe-phone-miss",
+    "key": "fe-phone-miss"
+  },
+  {
+    "icon": "fe-phone-off",
+    "key": "fe-phone-off"
+  },
+  {
+    "icon": "fe-phone-incoming",
+    "key": "fe-phone-incoming"
+  },
+  {
+    "icon": "fe-phone",
+    "key": "fe-phone"
+  },
+  {
+    "icon": "fe-phone-outgoing",
+    "key": "fe-phone-outgoing"
+  },
+  {
+    "icon": "fe-pie-chart",
+    "key": "fe-pie-chart"
+  },
+  {
+    "icon": "fe-play-circle",
+    "key": "fe-play-circle"
+  },
+  {
+    "icon": "fe-play",
+    "key": "fe-play"
+  },
+  {
+    "icon": "fe-plus-square",
+    "key": "fe-plus-square"
+  },
+  {
+    "icon": "fe-plus-circle",
+    "key": "fe-plus-circle"
+  },
+  {
+    "icon": "fe-plus",
+    "key": "fe-plus"
+  },
+  {
+    "icon": "fe-pocket",
+    "key": "fe-pocket"
+  },
+  {
+    "icon": "fe-printer",
+    "key": "fe-printer"
+  },
+  {
+    "icon": "fe-power",
+    "key": "fe-power"
+  },
+  {
+    "icon": "fe-radio",
+    "key": "fe-radio"
+  },
+  {
+    "icon": "fe-repeat",
+    "key": "fe-repeat"
+  },
+  {
+    "icon": "fe-refresh-ccw",
+    "key": "fe-refresh-ccw"
+  },
+  {
+    "icon": "fe-rewind",
+    "key": "fe-rewind"
+  },
+  {
+    "icon": "fe-rotate-ccw",
+    "key": "fe-rotate-ccw"
+  },
+  {
+    "icon": "fe-refresh-cw",
+    "key": "fe-refresh-cw"
+  },
+  {
+    "icon": "fe-rotate-cw",
+    "key": "fe-rotate-cw"
+  },
+  {
+    "icon": "fe-save",
+    "key": "fe-save"
+  },
+  {
+    "icon": "fe-search",
+    "key": "fe-search"
+  },
+  {
+    "icon": "fe-server",
+    "key": "fe-server"
+  },
+  {
+    "icon": "fe-scissors",
+    "key": "fe-scissors"
+  },
+  {
+    "icon": "fe-share-2",
+    "key": "fe-share-2"
+  },
+  {
+    "icon": "fe-share",
+    "key": "fe-share"
+  },
+  {
+    "icon": "fe-shield",
+    "key": "fe-shield"
+  },
+  {
+    "icon": "fe-settings",
+    "key": "fe-settings"
+  },
+  {
+    "icon": "fe-skip-back",
+    "key": "fe-skip-back"
+  },
+  {
+    "icon": "fe-shuffle",
+    "key": "fe-shuffle"
+  },
+  {
+    "icon": "fe-sidebar",
+    "key": "fe-sidebar"
+  },
+  {
+    "icon": "fe-skip-forward",
+    "key": "fe-skip-forward"
+  },
+  {
+    "icon": "fe-slack",
+    "key": "fe-slack"
+  },
+  {
+    "icon": "fe-slash",
+    "key": "fe-slash"
+  },
+  {
+    "icon": "fe-smartphone",
+    "key": "fe-smartphone"
+  },
+  {
+    "icon": "fe-square",
+    "key": "fe-square"
+  },
+  {
+    "icon": "fe-speaker",
+    "key": "fe-speaker"
+  },
+  {
+    "icon": "fe-star",
+    "key": "fe-star"
+  },
+  {
+    "icon": "fe-stop-circle",
+    "key": "fe-stop-circle"
+  },
+  {
+    "icon": "fe-sun",
+    "key": "fe-sun"
+  },
+  {
+    "icon": "fe-sunrise",
+    "key": "fe-sunrise"
+  },
+  {
+    "icon": "fe-tablet",
+    "key": "fe-tablet"
+  },
+  {
+    "icon": "fe-tag",
+    "key": "fe-tag"
+  },
+  {
+    "icon": "fe-sunset",
+    "key": "fe-sunset"
+  },
+  {
+    "icon": "fe-target",
+    "key": "fe-target"
+  },
+  {
+    "icon": "fe-thermometer",
+    "key": "fe-thermometer"
+  },
+  {
+    "icon": "fe-thumbs-up",
+    "key": "fe-thumbs-up"
+  },
+  {
+    "icon": "fe-thumbs-down",
+    "key": "fe-thumbs-down"
+  },
+  {
+    "icon": "fe-toggle-left",
+    "key": "fe-toggle-left"
+  },
+  {
+    "icon": "fe-toggle-right",
+    "key": "fe-toggle-right"
+  },
+  {
+    "icon": "fe-trash-2",
+    "key": "fe-trash-2"
+  },
+  {
+    "icon": "fe-trash",
+    "key": "fe-trash"
+  },
+  {
+    "icon": "fe-trending-up",
+    "key": "fe-trending-up"
+  },
+  {
+    "icon": "fe-trending-down",
+    "key": "fe-trending-down"
+  },
+  {
+    "icon": "fe-triangle",
+    "key": "fe-triangle"
+  },
+  {
+    "icon": "fe-type",
+    "key": "fe-type"
+  },
+  {
+    "icon": "fe-twitter",
+    "key": "fe-twitter"
+  },
+  {
+    "icon": "fe-upload",
+    "key": "fe-upload"
+  },
+  {
+    "icon": "fe-umbrella",
+    "key": "fe-umbrella"
+  },
+  {
+    "icon": "fe-upload-cloud",
+    "key": "fe-upload-cloud"
+  },
+  {
+    "icon": "fe-unlock",
+    "key": "fe-unlock"
+  },
+  {
+    "icon": "fe-user-check",
+    "key": "fe-user-check"
+  },
+  {
+    "icon": "fe-user-minus",
+    "key": "fe-user-minus"
+  },
+  {
+    "icon": "fe-user-plus",
+    "key": "fe-user-plus"
+  },
+  {
+    "icon": "fe-user-x",
+    "key": "fe-user-x"
+  },
+  {
+    "icon": "fe-user",
+    "key": "fe-user"
+  },
+  {
+    "icon": "fe-users",
+    "key": "fe-users"
+  },
+  {
+    "icon": "fe-video-off",
+    "key": "fe-video-off"
+  },
+  {
+    "icon": "fe-video",
+    "key": "fe-video"
+  },
+  {
+    "icon": "fe-voicemail",
+    "key": "fe-voicemail"
+  },
+  {
+    "icon": "fe-volume-x",
+    "key": "fe-volume-x"
+  },
+  {
+    "icon": "fe-volume-1",
+    "key": "fe-volume-1"
+  },
+  {
+    "icon": "fe-volume-2",
+    "key": "fe-volume-2"
+  },
+  {
+    "icon": "fe-volume",
+    "key": "fe-volume"
+  },
+  {
+    "icon": "fe-watch",
+    "key": "fe-watch"
+  },
+  {
+    "icon": "fe-wifi",
+    "key": "fe-wifi"
+  },
+  {
+    "icon": "fe-x-square",
+    "key": "fe-x-square"
+  },
+  {
+    "icon": "fe-wind",
+    "key": "fe-wind"
+  },
+  {
+    "icon": "fe-x",
+    "key": "fe-x"
+  },
+  {
+    "icon": "fe-x-circle",
+    "key": "fe-x-circle"
+  },
+  {
+    "icon": "fe-zap",
+    "key": "fe-zap"
+  },
+  {
+    "icon": "fe-zoom-in",
+    "key": "fe-zoom-in"
+  },
+  {
+    "icon": "fe-zoom-out",
+    "key": "fe-zoom-out"
+  },
+  {
+    "icon": "fe-command",
+    "key": "fe-command"
+  },
+  {
+    "icon": "fe-cloud",
+    "key": "fe-cloud"
+  },
+  {
+    "icon": "fe-hash",
+    "key": "fe-hash"
+  },
+  {
+    "icon": "fe-headphones",
+    "key": "fe-headphones"
+  },
+  {
+    "icon": "fe-underline",
+    "key": "fe-underline"
+  },
+  {
+    "icon": "fe-italic",
+    "key": "fe-italic"
+  },
+  {
+    "icon": "fe-bold",
+    "key": "fe-bold"
+  },
+  {
+    "icon": "fe-crop",
+    "key": "fe-crop"
+  },
+  {
+    "icon": "fe-help-circle",
+    "key": "fe-help-circle"
+  },
+  {
+    "icon": "fe-paperclip",
+    "key": "fe-paperclip"
+  },
+  {
+    "icon": "fe-shopping-cart",
+    "key": "fe-shopping-cart"
+  },
+  {
+    "icon": "fe-tv",
+    "key": "fe-tv"
+  },
+  {
+    "icon": "fe-wifi-off",
+    "key": "fe-wifi-off"
+  },
+  {
+    "icon": "fe-gitlab",
+    "key": "fe-gitlab"
+  },
+  {
+    "icon": "fe-sliders",
+    "key": "fe-sliders"
+  },
+  {
+    "icon": "fe-star-on",
+    "key": "fe-star-on"
+  },
+  {
+    "icon": "fe-heart-on",
+    "key": "fe-heart-on"
+  },
+  {
+    "icon": "fe-archive",
+    "key": "fe-archive"
+  },
+  {
+    "icon": "fe-arrow-down-circle",
+    "key": "fe-arrow-down-circle"
+  },
+  {
+    "icon": "fe-arrow-up-circle",
+    "key": "fe-arrow-up-circle"
+  },
+  {
+    "icon": "fe-arrow-left-circle",
+    "key": "fe-arrow-left-circle"
+  },
+  {
+    "icon": "fe-arrow-right-circle",
+    "key": "fe-arrow-right-circle"
+  },
+  {
+    "icon": "fe-bar-chart-line-",
+    "key": "fe-bar-chart-line-"
+  },
+  {
+    "icon": "fe-bar-chart-line",
+    "key": "fe-bar-chart-line"
+  },
+  {
+    "icon": "fe-book-open",
+    "key": "fe-book-open"
+  },
+  {
+    "icon": "fe-code",
+    "key": "fe-code"
+  },
+  {
+    "icon": "fe-database",
+    "key": "fe-database"
+  },
+  {
+    "icon": "fe-dollar-sign",
+    "key": "fe-dollar-sign"
+  },
+  {
+    "icon": "fe-folder-plus",
+    "key": "fe-folder-plus"
+  },
+  {
+    "icon": "fe-gift",
+    "key": "fe-gift"
+  },
+  {
+    "icon": "fe-folder-minus",
+    "key": "fe-folder-minus"
+  },
+  {
+    "icon": "fe-git-commit",
+    "key": "fe-git-commit"
+  },
+  {
+    "icon": "fe-git-branch",
+    "key": "fe-git-branch"
+  },
+  {
+    "icon": "fe-git-pull-request",
+    "key": "fe-git-pull-request"
+  },
+  {
+    "icon": "fe-git-merge",
+    "key": "fe-git-merge"
+  },
+  {
+    "icon": "fe-linkedin",
+    "key": "fe-linkedin"
+  },
+  {
+    "icon": "fe-hard-drive",
+    "key": "fe-hard-drive"
+  },
+  {
+    "icon": "fe-more-vertical-",
+    "key": "fe-more-vertical-"
+  },
+  {
+    "icon": "fe-more-horizontal-",
+    "key": "fe-more-horizontal-"
+  },
+  {
+    "icon": "fe-rss",
+    "key": "fe-rss"
+  },
+  {
+    "icon": "fe-send",
+    "key": "fe-send"
+  },
+  {
+    "icon": "fe-shield-off",
+    "key": "fe-shield-off"
+  },
+  {
+    "icon": "fe-shopping-bag",
+    "key": "fe-shopping-bag"
+  },
+  {
+    "icon": "fe-terminal",
+    "key": "fe-terminal"
+  },
+  {
+    "icon": "fe-truck",
+    "key": "fe-truck"
+  },
+  {
+    "icon": "fe-zap-off",
+    "key": "fe-zap-off"
+  },
+  {
+    "icon": "fe-youtube",
+    "key": "fe-youtube"
+  }
+]
