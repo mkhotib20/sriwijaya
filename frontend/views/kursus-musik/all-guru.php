@@ -70,7 +70,7 @@ BreadcrumbsHelper::widget([
                                 <div class="bg-caption text-center">
                                     <h4><?= $value['nama'] ?></h4>
                                     <p><?= $value['mengajar_kursus'] ?></p>
-                                    <p> <?= $value['deskripsi'] ?></p>    
+                                    <p class="breaked"> <?= $value['deskripsi'] ?></p>    
                                 </div>
                                 </a>
                             </div>

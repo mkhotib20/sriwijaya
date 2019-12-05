@@ -5,6 +5,7 @@ namespace backend\controllers;
 use Yii;
 use backend\models\Guru;
 use backend\models\Penghargaan;
+use backend\models\JadwalGuru;
 use backend\models\FIleUpload;
 use backend\models\GuruSearch;
 use yii\web\Controller;
@@ -12,6 +13,8 @@ use yii\web\NotFoundHttpException;
 use backend\components\DropdownHelpers;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
+use backend\models\Jam;
+use backend\models\Days;
 
 /**
  * GuruController implements the CRUD actions for Guru model.
@@ -66,7 +69,31 @@ class GuruController extends Controller
         return $this->render('penghargaan', [
             'model' => $this->findModel($id),
             'penghargaan' => $penghargaan,
-            'id' => $id
+            'id' => $id,
+        ]);
+    }
+    
+    public function actionJadwal($id)
+    {
+        $model = new JadwalGuru();
+        if ($model->load(Yii::$app->request->post())) {
+            $pos = Yii::$app->request->post();
+            if ($model->getCount($pos['JadwalGuru'])==0) {
+                $model->save();
+            }
+            return $this->redirect(['jadwal', 'id' => $id]);
+        }
+        
+        $jam = DropdownHelpers::getJam(new Jam());
+        $days = DropdownHelpers::getDropdown(new Days());
+        $jadwal = JadwalGuru::joined($id);
+        return $this->render('jadwal', [
+            'model' => $model,
+            'jadwal' => $jadwal,
+            'id' => $id,
+            'guru' => $this->findModel($id),
+            'days' => $days,
+            'jam' => $jam,
         ]);
     }
     public function actionView($id)

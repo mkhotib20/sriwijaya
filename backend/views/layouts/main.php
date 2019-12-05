@@ -420,6 +420,34 @@ AppAsset::register($this);
                     });
         }
     }
+    function delPenghargaan(id) {
+        var hapus = confirm("Yakin ingin menghapus?")
+        if (hapus) {
+            var newUrl = url+'jadwal-guru/delete'+'?id='+id
+                    $.ajax({
+                        type: "POST",
+                        url: newUrl,
+                        success: (resp) => {
+                            var data = JSON.parse(resp)
+                            if (data.code=='200') {
+                                $('#row_'+id).remove()
+                                iziToast.success({
+                                    title: 'Sukses',
+                                    message: 'Berhasil menghapus',
+                                    position:	'topRight'
+                                });
+                            }
+                            else{
+                                iziToast.error({
+                                    title: 'gagal',
+                                    message: 'gagal menghapus',
+                                    position:	'topRight'
+                                });
+                            }
+                        }
+                    });
+        }
+    }
 </script>
  <?php
     if (Yii::$app->session->hasFlash('success')) {

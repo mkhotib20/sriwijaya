@@ -5,24 +5,39 @@ use Yii;
 use backend\models\Kursus;
 use frontend\components\Filter;
 use backend\models\Guru;
+use backend\models\Days;
+use backend\models\JadwalGuru;
 use backend\models\KursusKategori;
 use backend\models\AlatMusik;
 use backend\models\Penghargaan;
 
 class KursusMusikController extends \frontend\controllers\BaseController
 {
-    public function actionGuru($slug=null, $id=null,$kat=0, $filter=0)
+    public function actionGuru($slug=null, $id=null,$kat=0, $filter=0, $day=0)
     {
         
         if ($slug!=null) {
             $penghargaan = Penghargaan::find()->where(['p_guru' => $id])->all();
+            
+            $jadwal = JadwalGuru::joined($id, $day);
+            $days = Days::find()->asArray()->all();
+            // echo "<pre>";
+            // print_r($days);
+            // echo "</pre>";
+            // // ${exit();}
+            // exit;
             $data = (object)Guru::find()
             ->select(['guru.*', 'kursus.nama as mengajar_kursus'])
             ->where(['guru.id' => $id])->asArray()
             ->joinWith('kursus')->one();
             return $this->render('guru', [
                 'data' => $data,
-                'penghargaan' => $penghargaan
+                'days' => $days,
+                'penghargaan' => $penghargaan,
+                'query_result' => $this,
+                'jadwal' => $jadwal,
+                'day' => $day,
+                'selectedDay' => Days::findOne($day)->name
             ]);
         }
         else{
@@ -62,7 +77,7 @@ class KursusMusikController extends \frontend\controllers\BaseController
                 'pages' => $pages,
                 'filters' => $filters,
                 'filterSelected' => $filter,
-                'query_result' => $this
+                'query_result' => $this,
             ]);
 
         }
@@ -80,7 +95,7 @@ class KursusMusikController extends \frontend\controllers\BaseController
         return $this->render('detail', [
             'data' => $data,
             'guru' => $guru,
-            'all_kursus' => $all_kursus
+            'all_kursus' => $all_kursus,
         ]);
     }
 

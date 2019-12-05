@@ -45,7 +45,7 @@ $uri_parts = '/'.$uri_parts[1];
         <ul class="ts-item float-right">
             <li><a href=""><i class="fa fa-instagram"></i></a></li>
             <li><a href=""><i class="fa  fa-facebook"></i></a></li>
-            <li><a href=""><i class="fa fa-phone"></i> +62 8989 xxxxzz <?=$uri_parts?> </a></li>
+            <li><a href=""><i class="fa fa-phone"></i> +62 8989 xxxxzz </a></li>
         </ul>
     </div>      
     <nav class="navbar navbar-expand-xl navbar-light bg-white">
@@ -120,5 +120,12 @@ $uri_parts = '/'.$uri_parts[1];
     //     console.log(newText);
         
     // }
+
 </script>
+<?php
+if (Yii::$app->session->hasFlash('msg')) { 
+    echo '<script>
+    toastr.info("'.Yii::$app->session->getFlash('msg').'")
+    </script>';
+ } ?>
 <?php $this->endPage() ?>

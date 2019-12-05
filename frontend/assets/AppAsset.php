@@ -20,6 +20,7 @@ class AppAsset extends AssetBundle
         'theme/css/icons.min.css',
         'owl/owl.carousel.min.css',
         'owl/owl.theme.default.min.css',
+        'toastr/toastr.min.css',
     ];
     public $js = [
         'theme/js/jquery.min.js',
@@ -27,6 +28,7 @@ class AppAsset extends AssetBundle
         'owl/owl.carousel.min.js',
         // 'theme/js/popper.min.js',
         'theme/js/bootstrap.min.js',
+        'toastr/toastr.min.js',
     ];
     public $depends = [
     ];

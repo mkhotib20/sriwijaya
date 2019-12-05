@@ -148,6 +148,7 @@ class ActionColumn extends yii\grid\Column
         $this->initDefaultButton('update', 'edit');
         $this->initDefaultButton('variasi', 'list');
         $this->initDefaultButton('penghargaan', 'list');
+        $this->initDefaultButton('jadwal', 'calendar');
         $this->initDefaultButton('delete', 'trash', [
             'data-confirm' => 'Are you sure you want to delete this item?',
             'data-method' => 'post',
@@ -180,6 +181,9 @@ class ActionColumn extends yii\grid\Column
                         break;
                     case 'penghargaan':
                         $title = Yii::t('yii', 'Penghargaan');
+                        break;
+                    case 'jadwal':
+                        $title = Yii::t('yii', 'Jadwal');
                         break;
                     default:
                         $title = ucfirst($name);

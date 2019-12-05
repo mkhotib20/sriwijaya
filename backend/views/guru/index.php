@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         //'updated_at',
                         [
                             'class' => 'backend\components\ActionColumn',
-                            'template' => '{view} {update} {delete} {penghargaan}',
+                            'template' => '{view} {update} {delete} {penghargaan} {jadwal}',
                             'header'=> "Pilihan"
                         ],
                     ],

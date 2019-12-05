@@ -19,6 +19,7 @@ use backend\models\AlatMusik;
 use backend\models\Kursus;
 use frontend\components\Filter;
 use backend\models\Guru;
+use backend\models\Feedback;
 use backend\models\KursusKategori;
 /**
  * Site controller
@@ -79,6 +80,15 @@ class SiteController extends \frontend\controllers\BaseController
      */
     public function actionIndex()
     {
+        $model = new Feedback();
+        
+        if (null!==(Yii::$app->request->post())) {
+            $model->setAttributes(Yii::$app->request->post());
+            if ($model->save()) {
+                Yii::$app->session->setFlash("msg", 'Masukan Anda telah tersampaikan');
+                return $this->redirect('/');
+            }
+        }
         $kategori = AlatMusik::find()->select(['alat_musik.kategori', 'alat_musik.img', 'am_kategori.*'])
         ->joinWith('am_kategori')->asArray()->groupBy('kategori')->all();
 

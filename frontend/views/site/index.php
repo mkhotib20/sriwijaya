@@ -228,7 +228,7 @@ $data = [
                                 <div class="bg-caption text-center">
                                     <h4><?= $value['nama'] ?></h4>
                                     <p><?= $value['mengajar_kursus'] ?></p>
-                                    <p> <?= $value['deskripsi'] ?></p>    
+                                    <p class="breaked"> <?= $value['deskripsi'] ?></p>    
                                 </div>
                                 </a>
                             </div>
@@ -266,17 +266,18 @@ $data = [
                 </div>
             </div>
             <div class="col-md-10 offset-md-1 text-center">
-                <form action="">
+                <form action="/" method="post">
+                    <input type="hidden" name="<?= Yii::$app->request->csrfParam; ?>" value="<?= Yii::$app->request->csrfToken; ?>" />
                     <div class="form__group">
-                        <input type="text" class="form__field" name="nama" placeholder="nama">
+                        <input type="text" class="form__field" name="from_name" placeholder="nama">
                         <label for="" class="form__label">Nama</label>
                     </div>
                     <div class="form__group">
-                        <input type="email" class="form__field" name="email" placeholder="nama">
+                        <input type="email" class="form__field" name="from_email" placeholder="nama">
                         <label for="" class="form__label">Email</label>
                     </div>
                     <div class="form__group">
-                        <textarea name="pesan" id="" cols="30" rows="5" placeholder="Pesan" class="form__field"></textarea>
+                        <textarea name="content" id="" cols="30" rows="5" placeholder="Pesan" class="form__field"></textarea>
                         <label for="" class="form__label">Pesan</label>
                     </div>
                     <br>

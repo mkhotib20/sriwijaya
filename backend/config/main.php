@@ -57,8 +57,9 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '/' => 'alat-musik/index',
-                '/api/v1/warna' => 'wm/create'
+                '/dashboard' => 'kunjungan/index',
+                '/' => 'kunjungan/index',
+                '/api/v1/warna' => 'wm/create',
             ],
         ],
         'authManager' => [
