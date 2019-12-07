@@ -15,7 +15,7 @@ class BaseController extends \yii\web\Controller
     {
         $uri_parts = explode('?', $_SERVER['REQUEST_URI']);
         $uri_parts = explode('/', $uri_parts[0]);
-        $uri_parts = $uri_parts[1];
+        $uri_parts = $uri_parts[count($uri_parts)-1];
         return $uri_parts;
     }
     public function getProdukId()
@@ -49,7 +49,6 @@ class BaseController extends \yii\web\Controller
     }
     public function beforeAction($action)
     {
-
         $this->nowQuarter = $this->genQuarter();
         $produk = $this->getProduk().'/'.$this->getProdukId();
         $arr = [
@@ -59,7 +58,7 @@ class BaseController extends \yii\web\Controller
         ];
         
         $model = new Kunjungan();
-        $exists = $model->find()->where( [ 'ip' => $arr['ip'], 'quarter' => $arr['quarter'], 'produk' => $arr['produk'] ] )->exists();
+        $exists = $model->find()->where( [ 'ip' => $arr['ip'], 'DATE_FORMAT(kunjungan.time, "%d")' => date('d') , 'quarter' => $arr['quarter'], 'produk' => $arr['produk'] ] )->exists();
 
         if (!$exists) {
             $model->setAttributes($arr);

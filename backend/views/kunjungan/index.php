@@ -17,25 +17,25 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="card-body">
                 <h4 class="header-title">List <?= Html::encode($this->title) ?></h4>
 
-    <?= GridView::widget([
-        'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
-        'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
+                    <?= GridView::widget([
+                        'dataProvider' => $dataProvider,
+                        'filterModel' => $searchModel,
+                        'columns' => [
+                            ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'ip',
-            'time',
-            'quarter',
-            'produk',
+                            'id',
+                            'ip',
+                            'time',
+                            'quarter',
+                            'produk',
 
-            [
-                'class' => 'backend\components\ActionColumn',
-                'template' => '{view} {update} {delete}',
-                'header'=> "Pilihan"
-            ],
-        ],
-    ]); ?>
+                            [
+                                'class' => 'backend\components\ActionColumn',
+                                'template' => '{view} {update} {delete}',
+                                'header'=> "Pilihan"
+                            ],
+                        ],
+                    ]); ?>
 
 
             </div>

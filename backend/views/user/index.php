@@ -1,59 +1,33 @@
 <?php
 
 use yii\helpers\Html;
-use yii\grid\GridView;
+use yii\bootstrap4\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $dataProvider yii\data\ActiveDataProvider */
+/* @var $model app\models\AlatMusik */
 
-$this->title = 'Users';
+$this->title = 'Ganti password';
+// $this->params['breadcrumbs'][] = ['label' => '', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="user-index">
+<div class="alat-musik-create">
     <div class="row">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">List <?= Html::encode($this->title) ?></h4>
-                <p>
-                    <?= Html::a('Create User', ['create'], ['class' => 'btn btn-primary']) ?>
-                </p>
+        <div class="col-md-12">
+            <div class="card">
+                <h4>User : <?= $model->_user->username; ?></h4>
+                <div class="card-body">
+                    <?php  $form = ActiveForm::begin(); ?>
 
-    <?= GridView::widget([
-        'dataProvider' => $dataProvider,
-        'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
+                    <?= $form->field($model, 'password')->passwordInput() ?>
+                    <?= $form->field($model, 'password_confirmation')->passwordInput() ?>
 
-            'user_id',
-            'name',
-            'password',
-            'user_type',
-            'verification_token',
-            //'password_reset_token',
-            //'username',
-            //'email:email',
-            //'status',
-            //'login_failed',
-            //'last_login_attempt',
-            //'penalty_time',
-            //'auth_key',
-            //'created_by',
-            //'created_by_name',
-            //'updated_at',
-            //'created_at',
+                    <div class="form-group">
+                        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+                    </div>
 
-            [
-                'class' => 'backend\components\ActionColumn',
-                'template' => '{view} {update} {delete}',
-                'header'=> "Pilihan"
-            ],
-        ],
-    ]); ?>
-
-
+                    <?php ActiveForm::end(); ?>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 </div>

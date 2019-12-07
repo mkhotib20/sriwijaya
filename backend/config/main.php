@@ -15,9 +15,9 @@ return [
         'gii' => [
             'class' => 'yii\gii\Module',
         ],
-        'api' => [
-            'class' => 'backend\modules\api\Module',
-        ],
+        // 'api' => [
+        //     'class' => 'backend\modules\api\Module',
+        // ],
         'admin' => 'backend\modules\admin\Module',
     ],
     'components' => [
@@ -72,6 +72,7 @@ return [
         'class' => 'backend\components\rbac\AccessControl',
         'allowActions' => [
             'site/login',
+            'api/*',
             'site/signup',
             'site/logout',
             'site/request-password-reset',

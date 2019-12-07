@@ -26,8 +26,12 @@ class AppAsset extends AssetBundle
         'dropify/js/dropify.min.js',
         'jui/jquery-ui.min.js',
         'simulor/js/app.min.js',
+        // 'simulor/js/vendor.min.js',
         'izi/js/iziToast.min.js',
-        'simulor/js/pages/dashboard.init.js'
+        'simulor/js/pages/dashboard.init.js',
+        'simulor/js/vendor/jquery.sparkline.min.js',
+        'simulor/js/vendor/Chart.bundle.js',
+        'js/chart.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',

@@ -5,6 +5,7 @@ namespace backend\controllers;
 use Yii;
 use backend\models\Kunjungan;
 use backend\models\KunjunganSearch;
+use backend\controllers\ApiController as Api;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -37,10 +38,16 @@ class KunjunganController extends Controller
     {
         $searchModel = new KunjunganSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
-        return $this->render('index', [
+        return $this->render('dashboard', [
+            'top_am' => Kunjungan::getTopProduct('alat-musik', 5),
+            'top_km' => Kunjungan::getTopProduct('kursus-musik', 5),
+            'top_guru' => Kunjungan::getTopProduct('guru', 5),
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'totalView' => Kunjungan::getCount(),
+            'todayView' => Kunjungan::getCount(['DATE_FORMAT(kunjungan.time, "%d")' => date('d')]),
+            'totalWebView' => count(Kunjungan::find()->groupBy(['ip', 'quarter'])->asArray()->all()),
+            'todayWebView' => count(Kunjungan::find()->where(['DATE_FORMAT(kunjungan.time, "%d")' => date('d')])->groupBy(['ip', 'quarter'])->asArray()->all())
         ]);
     }
 

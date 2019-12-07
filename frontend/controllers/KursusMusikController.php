@@ -13,7 +13,7 @@ use backend\models\Penghargaan;
 
 class KursusMusikController extends \frontend\controllers\BaseController
 {
-    public function actionGuru($slug=null, $id=null,$kat=0, $filter=0, $day=0)
+    public function actionGuru($slug=null, $id=null,$kat=0, $filter=0, $day=1)
     {
         
         if ($slug!=null) {

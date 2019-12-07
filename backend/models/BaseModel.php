@@ -58,4 +58,5 @@ class BaseModel extends \yii\db\ActiveRecord
         }
         return $data;
     }
+    
 }
